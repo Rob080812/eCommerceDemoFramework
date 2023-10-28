@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-28T14:29:07 IST" name="eCommerceDemo Suite" finished-at="2023-10-28T14:31:03 IST" duration-ms="116251">
+    <groups>
+    </groups>
+    <test started-at="2023-10-28T14:29:07 IST" name="Demo Test" finished-at="2023-10-28T14:31:03 IST" duration-ms="116251">
+      <class name="com.ecommercedemo.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:29:08 IST" name="setUp" finished-at="2023-10-28T14:29:27 IST" duration-ms="18825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verfiySearchWithValidProduct()[pri:1, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:29:27 IST" name="verfiySearchWithValidProduct" finished-at="2023-10-28T14:29:36 IST" duration-ms="9850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:29:36 IST" name="tearDown" finished-at="2023-10-28T14:29:37 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:29:37 IST" name="setUp" finished-at="2023-10-28T14:29:56 IST" duration-ms="18792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verfiySearchWithAnotherValidProduct()[pri:2, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:29:56 IST" name="verfiySearchWithAnotherValidProduct" finished-at="2023-10-28T14:30:05 IST" duration-ms="9593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiySearchWithAnotherValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:30:05 IST" name="tearDown" finished-at="2023-10-28T14:30:06 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:30:06 IST" name="setUp" finished-at="2023-10-28T14:30:24 IST" duration-ms="17837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:3, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:30:24 IST" name="verifySearchWithInvalidProduct" finished-at="2023-10-28T14:30:33 IST" duration-ms="9713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:30:33 IST" name="tearDown" finished-at="2023-10-28T14:30:34 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:30:34 IST" name="setUp" finished-at="2023-10-28T14:30:53 IST" duration-ms="19419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithNoProduct()[pri:4, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:30:53 IST" name="verifySearchWithNoProduct" finished-at="2023-10-28T14:31:03 IST" depends-on-methods="com.ecommercedemo.qa.testcases.SearchTest.verifySearchWithInvalidProduct" duration-ms="9314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommercedemo.qa.testcases.SearchTest@229c6181]" started-at="2023-10-28T14:31:03 IST" name="tearDown" finished-at="2023-10-28T14:31:03 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommercedemo.qa.testcases.SearchTest -->
+    </test> <!-- Demo Test -->
+  </suite> <!-- eCommerceDemo Suite -->
+</testng-results>

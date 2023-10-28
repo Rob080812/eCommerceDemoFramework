@@ -10,7 +10,10 @@ public class SearchPage {
 	WebDriver driver;
 
 	@FindBy(linkText = "HP LP3065")
-	WebElement verifyProductName;
+	WebElement verifyProductName1;
+	
+	@FindBy(linkText = "iPhone")
+	WebElement verifyProductName2;
 
 	@FindBy(xpath = "//div[@id='content']/h2/following-sibling::p")
 	WebElement noProductWarningMessage;
@@ -22,7 +25,12 @@ public class SearchPage {
 	}
 
 	public boolean retrieveVerifyProductNameText() {
-		boolean productNameText = verifyProductName.isDisplayed();
+		boolean productNameText = verifyProductName1.isDisplayed();
+		return productNameText;
+	}
+	
+	public boolean retrieveVerifyAnotherProductNameText() {
+		boolean productNameText = verifyProductName2.isDisplayed();
 		return productNameText;
 	}
 
