@@ -20,7 +20,10 @@ public class HomePage {
 	private WebElement registerOption;
 	
 	@FindBy(name="search")
-	WebElement validProductName;
+	WebElement validProductName1;
+	
+	@FindBy(name="search")
+	WebElement validProductName2;
 	
 	@FindBy(xpath="//div[@id='search']/descendant::button")
 	WebElement searchbutton;
@@ -55,7 +58,11 @@ public class HomePage {
 	}
 	
 	public void enterValidProductName (String productName) {
-		validProductName.sendKeys(productName);
+		validProductName1.sendKeys(productName);
+	}
+	
+	public void enterAnotherValidProductName (String productName) {
+		validProductName2.sendKeys(productName);
 	}
 	
 	public SearchPage clickOnSearchButton() {

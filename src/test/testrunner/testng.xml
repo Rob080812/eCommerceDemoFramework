@@ -6,8 +6,7 @@
 	</listeners>
   <test name="Demo Test">
     <classes>
-      <class name="com.ecommercedemo.qa.testcases.RegistrationTest"/>
-        <class name="com.ecommercedemo.qa.testcases.LoginTest"/>
+
       <class name="com.ecommercedemo.qa.testcases.SearchTest"/>
     </classes>
   </test> <!-- Test -->

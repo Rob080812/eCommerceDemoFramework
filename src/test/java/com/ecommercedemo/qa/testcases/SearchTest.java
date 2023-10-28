@@ -40,13 +40,22 @@ public class SearchTest extends Base {
 	@Test (priority=1)
 	public void verfiySearchWithValidProduct () throws InterruptedException {
 		
-		homePage.enterValidProductName(dataProp.getProperty("validProductName"));
+		homePage.enterValidProductName(dataProp.getProperty("validProductName1"));
 		searchPage = homePage.clickOnSearchButton();
 		Thread.sleep(8000);
 		Assert.assertTrue(searchPage.retrieveVerifyProductNameText());
 	}
 	
 	@Test (priority=2)
+	public void verfiySearchWithAnotherValidProduct () throws InterruptedException {
+		
+		homePage.enterValidProductName(dataProp.getProperty("validProductName2"));
+		searchPage = homePage.clickOnSearchButton();
+		Thread.sleep(8000);
+		Assert.assertTrue(searchPage.retrieveVerifyAnotherProductNameText());
+	}
+	
+	@Test (priority=3)
 	public void verifySearchWithInvalidProduct () throws InterruptedException {
 		
 		homePage.enterInValidProductName(dataProp.getProperty("invalidproductName"));
@@ -60,7 +69,7 @@ public class SearchTest extends Base {
 		
 	}
 	
-	@Test (priority=3, dependsOnMethods={"verifySearchWithInvalidProduct"} )
+	@Test (priority=4, dependsOnMethods={"verifySearchWithInvalidProduct"} )
 	public void verifySearchWithNoProduct () throws InterruptedException {
 		
 		searchPage = homePage.clickOnSearchButton();
