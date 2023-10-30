@@ -9,9 +9,14 @@
       <class name="com.ecommercedemo.qa.testcases.SearchTest">
         <methods>
           <include name="setUp"/>
+<<<<<<< HEAD
           <include name="verifySearchWithNoProduct"/>
           <include name="tearDown"/>
           <include name="verifySearchWithInvalidProduct"/>
+=======
+          <include name="verfiySearchWithAnotherValidProduct"/>
+          <include name="tearDown"/>
+>>>>>>> branch 'master' of https://github.com/Rob080812/eCommerceDemoFramework.git
         </methods>
       </class> <!-- com.ecommercedemo.qa.testcases.SearchTest -->
     </classes>
