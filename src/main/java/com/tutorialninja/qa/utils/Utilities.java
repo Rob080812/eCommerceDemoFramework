@@ -79,6 +79,10 @@ public class Utilities {
 
 	public static String captureScreenshot(WebDriver driver, String testName) {
 		
+		/*Date currentdate = new Date();
+		String screenshotfilename =  currentdate.toString().replace(" ","-").replace(":","-");
+		System.out.println(screenshotfilename);*/
+		
 		File srcScreenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String destinationScreenshotPath = System.getProperty("user.dir")+"\\Screenshots\\"+testName+".png";
 		try {
@@ -90,6 +94,7 @@ public class Utilities {
 		return destinationScreenshotPath;
 		
 	}
+
 }
 	
 

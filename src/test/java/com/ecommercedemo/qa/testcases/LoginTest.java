@@ -22,7 +22,7 @@ public class LoginTest extends Base {
 	}
 
 	public WebDriver driver;
-
+	
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
 

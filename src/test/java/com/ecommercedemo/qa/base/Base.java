@@ -44,7 +44,7 @@ public class Base {
 		}
 
 	}
-
+   
 	public WebDriver initializeBrowserAndOpenApplictaionURL(String browserName) throws InterruptedException {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
